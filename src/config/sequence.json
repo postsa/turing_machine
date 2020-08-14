@@ -1,0 +1,98 @@
+{
+  "b": {
+    " ": {
+      "operations": [
+        "P|@",
+        "R",
+        "P|@",
+        "R",
+        "P|0",
+        "R",
+        "R",
+        "P|0",
+        "L",
+        "L"
+      ],
+      "final-m-config": "o"
+    }
+  },
+  "o": {
+    "1": {
+      "operations": [
+        "R",
+        "P|x",
+        "L",
+        "L",
+        "L"
+      ],
+      "final-m-config": "o"
+    },
+    "0": {
+      "operations": [],
+      "final-m-config": "q"
+    }
+  },
+  "q": {
+    "1": {
+      "operations": [
+        "R",
+        "R"
+      ],
+      "final-m-config": "q"
+    },
+    "0": {
+      "operations": [
+        "R",
+        "R"
+      ],
+      "final-m-config": "q"
+    },
+    " ": {
+      "operations": [
+        "P|1",
+        "L"
+      ],
+      "final-m-config": "p"
+    }
+  },
+  "p": {
+    "x": {
+      "operations": [
+        "E",
+        "R"
+      ],
+      "final-m-config": "q"
+    },
+    "@": {
+      "operations": [
+        "R"
+      ],
+      "final-m-config": "f"
+    },
+    " ": {
+      "operations": [
+        "L",
+        "L"
+      ],
+      "final-m-config": "p"
+    }
+  },
+  "f": {
+    "any": {
+      "operations": [
+        "R",
+        "R"
+      ],
+      "final-m-config": "f"
+    },
+    " ": {
+      "operations": [
+        "P|0",
+        "L",
+        "L"
+      ],
+      "final-m-config": "o"
+    }
+  }
+}
+

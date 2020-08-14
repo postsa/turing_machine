@@ -1,0 +1,26 @@
+{
+  "b": {
+    " ": {
+      "operations": [
+        "P|0"
+      ],
+      "final-m-config": "b"
+    },
+    "0": {
+      "operations": [
+        "R",
+        "R",
+        "P|1"
+      ],
+      "final-m-config": "b"
+    },
+    "1": {
+      "operations": [
+        "R",
+        "R",
+        "P|0"
+      ],
+      "final-m-config": "b"
+    }
+  }
+}
